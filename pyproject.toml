@@ -1,0 +1,2 @@
+[tool.pytest.ini_options]
+markers = ['mobile: only mobile testing', 'desktop: only mobile testing']
