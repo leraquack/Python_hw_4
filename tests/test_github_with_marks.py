@@ -4,7 +4,6 @@ from selene.support.shared import browser
 
 @pytest.fixture()
 def open_browser():
-    browser.element('[id="L2AGLb"]').press_enter()
     browser.open('https://github.com/')
 
 
