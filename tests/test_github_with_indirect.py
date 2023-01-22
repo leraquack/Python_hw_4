@@ -3,8 +3,7 @@ from selene.support.shared import browser
 
 @pytest.fixture()
 def open_browser():
-    base_url = 'https://google.com'
-    browser.open(base_url)
+    browser.open('https://github.com/')
 
 
 @pytest.fixture(params=[pytest.param(1920, 1800, 1700, 800, 640, 300)])
