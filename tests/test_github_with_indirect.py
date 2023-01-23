@@ -15,7 +15,7 @@ def width(request):
 def test_mobile_with_indirect_parametrization(open_browser, width):
     browser.config.window_width = width
     browser.config.window_height = 300
-    browser.element('[aria-label="Toggle navigation"]').click()
+    browser.element('[class="Button-label"]').click()
     browser.element('[href="/login"]').click()
 
 
